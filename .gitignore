@@ -1,2 +1,5 @@
+.sass-cache/
+.vscode/
+
 bootstrap
 scss/bootstrap
