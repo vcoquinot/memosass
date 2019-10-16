@@ -1,0 +1,56 @@
+// variables de couleur
+$blueMemo: rgb(150, 150, 224);
+$blueDark_Memo: rgb(17, 17, 228);
+$grey_memo: #6C757D;
+$green_memo : #4CA745;
+$white: #fff;
+$yellow:#E0A815;
+
+// link
+a {
+    color: $blueMemo;
+    &:hover {
+        color: $blueDark_Memo;
+    }
+}
+
+// Title
+h1 {
+    background-color: $grey_memo;
+    color: $white;
+}
+.fa-user{
+    color: $green_memo;
+}
+// Button
+nav .btn {
+    margin: 2px;
+    &:hover {
+        background-color : $yellow;
+        border: $yellow;
+    }
+}
+  
+  main h2{
+      visibility: hidden;
+}
+
+#scrolling-wrapper {
+   display: flex;
+   flex-wrap: nowrap;
+    // .card {
+    //   flex-basis: 0;
+    // }
+  }
+
+@media screen and (max-width: 768px){
+    #scrolling-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card {
+        flex-basis: 0;
+        min-width: 90vw;
+    }
+}
