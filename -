@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.
+        on line 35 of -
+
+30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
+31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
+32: /usr/bin/sass:8:in `<main>'
+33: *\/
+34: body:before {
+35:   white-space: pre;
+36:   font-family: monospace;
+37:   content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 35 of -\A \A 30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 32: /usr/bin/sass:8:in `<main>'\A 33: *\/\A 34: body:before {\A 35:   white-space: pre;\A 36:   font-family: monospace;\A 37:   content: \"Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 35 of -\A \A 30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 32: /usr/bin/sass:8:in `<main>'\A 33: *\/\A 34: body:before {\A 35:   white-space: pre;\A 36:   font-family: monospace;\A 37:   content: \\"Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 39 of -\A \A 34: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 35: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 36: /usr/bin/sass:8:in `<main>'\A 37: *\/\A 38: body:before {\A 39:   white-space: pre;\A 40:   font-family: monospace;\A 41:   content: \\\"Error: Invalid property: \\\\"Backtrace:\\\\" (no value).\A         on line 4 of -\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory @ rb_sysopen - -\A 3: \A 4: Backtrace:\A 5: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:484:in `read'\A 6: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:484:in `update_stylesheet'\A 7: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'\A 8: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'\A 9: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'\\\"; }\\"; }\"; }"; }
+
+Backtrace:
+-:35
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:486:in `block in tabulate'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:444:in `each'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:444:in `each_with_index'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:444:in `tabulate'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:409:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:82:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:336:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 35 of -\A \A 30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 32: /usr/bin/sass:8:in `<main>'\A 33: */\A 34: body:before {\A 35:   white-space: pre;\A 36:   font-family: monospace;\A 37:   content: \"Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 35 of -\A \A 30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 32: /usr/bin/sass:8:in `<main>'\A 33: */\A 34: body:before {\A 35:   white-space: pre;\A 36:   font-family: monospace;\A 37:   content: \\"Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 35 of -\A \A 30: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 31: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 32: /usr/bin/sass:8:in `<main>'\A 33: */\A 34: body:before {\A 35:   white-space: pre;\A 36:   font-family: monospace;\A 37:   content: \\\"Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 39 of -\A \A 34: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'\A 35: /usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'\A 36: /usr/bin/sass:8:in `<main>'\A 37: */\A 38: body:before {\A 39:   white-space: pre;\A 40:   font-family: monospace;\A 41:   content: \\\\"Error: Invalid property: \\\\\"Backtrace:\\\\\" (no value).\A         on line 4 of -\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory @ rb_sysopen - -\A 3: \A 4: Backtrace:\A 5: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:484:in `read'\A 6: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:484:in `update_stylesheet'\A 7: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'\A 8: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'\A 9: /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'\\\\"; }\\\"; }\\"; }\"; }"; }

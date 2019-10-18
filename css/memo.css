@@ -7470,17 +7470,17 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-a {
-  color: #9696e0; }
-  a:hover {
-    color: #1111e4; }
-
 h1 {
   background-color: #6C757D;
   color: #fff; }
 
 .fa-user {
   color: #4CA745; }
+
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+  color: #fff;
+  /*vertical-align :top;*/
+  /*padding : 1px;*/ }
 
 nav .btn {
   margin: 2px; }
@@ -7494,6 +7494,10 @@ main h2 {
 #scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap; }
+
+article {
+  background-color: #6C757D;
+  color: white; }
 
 @media screen and (max-width: 768px) {
   #scrolling-wrapper {

@@ -1,27 +1,26 @@
 // variables de couleur
-$blueMemo: rgb(150, 150, 224);
-$blueDark_Memo: rgb(17, 17, 228);
 $grey_memo: #6C757D;
 $green_memo : #4CA745;
 $white: #fff;
 $yellow:#E0A815;
-
-// link
-a {
-    color: $blueMemo;
-    &:hover {
-        color: $blueDark_Memo;
-    }
-}
 
 // Title
 h1 {
     background-color: $grey_memo;
     color: $white;
 }
+
+//Font-awesome
 .fa-user{
     color: $green_memo;
 }
+
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+    color: $white;
+    /*vertical-align :top;*/
+    /*padding : 1px;*/
+}
+
 // Button
 nav .btn {
     margin: 2px;
@@ -30,18 +29,21 @@ nav .btn {
         border: $yellow;
     }
 }
-  
-  main h2{
+
+main h2{
       visibility: hidden;
 }
 
 #scrolling-wrapper {
    display: flex;
    flex-wrap: nowrap;
-    // .card {
-    //   flex-basis: 0;
-    // }
-  }
+}
+
+article {
+    background-color: $grey_memo;
+    color: white;
+    
+}
 
 @media screen and (max-width: 768px){
     #scrolling-wrapper {
